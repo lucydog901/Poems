@@ -1,5 +1,9 @@
-<h1><%= @poem.title %></h1>
+ <div class="col-6">
+  <h1><%= @poem.title %></h1>
 <h2><%= @poem.body %></h2>
 <p>- <%= @poem.author %></p>
 
+
 <%= link_to 'Contribute', new_poem_path %>
+
+</div>
