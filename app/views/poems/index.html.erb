@@ -1,3 +1,5 @@
 <h1><%= @poem.title %></h1>
-<p><%= @poem.body %></p>
+<h2><%= @poem.body %></h2>
 <p>- <%= @poem.author %></p>
+
+<%= link_to 'Contribute', new_poem_path %>
